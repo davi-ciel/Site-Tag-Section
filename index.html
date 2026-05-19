@@ -18,7 +18,7 @@
       font-family: sans-serif;
     }
 
-    /* HEADER */
+   
 
     header {
       text-align: center;
@@ -37,7 +37,7 @@
       color: #555;
     }
 
-    /* NAV */
+   
 
     nav {
       display: flex;
@@ -57,14 +57,14 @@
       text-decoration: underline;
     }
 
-    /* LAYOUT PRINCIPAL */
+  
 
     .pagina {
       display: flex;
       gap: 0;
     }
 
-    /* ASIDE */
+   
 
     aside {
       width: 180px;
@@ -95,7 +95,7 @@
       color: #000;
     }
 
-    /* ARTICLE */
+   
 
     article {
       flex: 1;
@@ -110,7 +110,7 @@
       font-family: monospace;
     }
 
-    /* --- DIAGRAMA --- */
+  
 
     .diagrama {
       display: flex;
@@ -235,7 +235,7 @@
       margin-top: 4px;
     }
 
-    /* SECTION — painel de informações */
+  
 
     section {
       max-width: 500px;
@@ -319,7 +319,7 @@
       line-height: 1.6;
     }
 
-    /* FOOTER */
+   
 
     footer {
       text-align: center;
@@ -335,13 +335,13 @@
 </head>
 <body>
 
-  <!-- HEADER: cabeçalho da página -->
+
   <header>
     <h1>Tags de Layout HTML</h1>
     <p>Clique em qualquer tag para ver o que ela faz</p>
   </header>
 
-  <!-- NAV: navegação entre as tags -->
+
   <nav>
     <span onclick="abrirPainel('header')">&lt;header&gt;</span>
     <span onclick="abrirPainel('nav')">&lt;nav&gt;</span>
@@ -353,7 +353,7 @@
 
   <div class="pagina">
 
-    <!-- ASIDE: informações extras na lateral -->
+   
     <aside>
       <h3>Sobre este site</h3>
       <p>Cada bloco do diagrama representa uma tag de layout do HTML semântico.</p>
@@ -370,7 +370,7 @@
       </div>
     </aside>
 
-    <!-- ARTICLE: conteúdo principal da página -->
+   
     <article>
       <h2>Diagrama de layout</h2>
 
@@ -419,7 +419,7 @@
 
       </div>
 
-      <!-- SECTION: painel de informações da tag clicada -->
+    
       <section>
         <div class="painel" id="painel">
           <div class="painel-topo">
@@ -434,7 +434,7 @@
 
   </div>
 
-  <!-- FOOTER: rodapé da página -->
+
   <footer>
     Trabalho de HTML &mdash; Tags de Layout &mdash; 2026
   </footer>
@@ -473,7 +473,7 @@
         atributos: ["semântica", "thematic group", "heading obrigatório", "acessibilidade"],
         codigo: '<section>\n  <h2>Introdução</h2>\n  <p>Conteúdo relacionado...</p>\n</section>\n\n<section>\n  <h2>Exemplos práticos</h2>\n  <p>Mais conteúdo...</p>\n</section>',
         onde: "Onde usar: capítulos de um artigo, abas de conteúdo, grupos de features, áreas temáticas distintas numa página.",
-        dica: "✦ Regra de ouro: se a sua &lt;section&gt; não tiver um &lt;h2&gt; ou &lt;h3&gt;, provavelmente deveria ser um &lt;div&gt;. A tag ganha sentido real quando cada bloco tem um título que o descreve."
+        dica: "Regra de ouro: se a sua &lt;section&gt; não tiver um &lt;h2&gt; ou &lt;h3&gt;, provavelmente deveria ser um &lt;div&gt;. A tag ganha sentido real quando cada bloco tem um título que o descreve."
       },
       aside: {
         titulo: "<aside>",
